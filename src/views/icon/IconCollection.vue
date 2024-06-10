@@ -130,6 +130,10 @@ const defaultIconCollectionColumns = ref([
     text: "Orz-3/Color+",
     value: "https://raw.githubusercontent.com/Orz-3/mini/master/Color%2B.json",
   },
+  {
+    text: "MRLQ/ios_rule_script",
+    value: "https://raw.githubusercontent.com/MRLQ/ios_rule_script/master/icons.json",
+  },
 ]);
 
 // 默认图标仓库
