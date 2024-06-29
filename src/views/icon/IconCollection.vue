@@ -130,10 +130,6 @@ const defaultIconCollectionColumns = ref([
       "https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-All.json",
   },
   {
-    text: "MRLQ/ios_rule_script",
-    value: "https://raw.githubusercontent.com/MRLQ/ios_rule_script/master/icons.json",
-  },
-  {
     text: "Orz-3/mini",
     value: "https://raw.githubusercontent.com/Orz-3/mini/master/mini.json",
   },
@@ -158,6 +154,11 @@ const defaultIconCollectionColumns = ref([
     text: "fmz200/icons-all",
     value:
       "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/icons-all.json",
+  },
+  {
+    text: "MRLQ/ios_rule_script",
+    value: 
+      "https://raw.githubusercontent.com/MRLQ/ios_rule_script/master/icons.json",
   },
 ]);
 
