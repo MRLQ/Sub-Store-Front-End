@@ -327,6 +327,7 @@ const flow = computed(() => {
       let progress = 0;
       try {
         progress = 1 - (upload + download) / total
+        progress = parseFloat(progress.toFixed(2))
       } catch (e) {
       }
       if (!(progress > 0)) {
@@ -619,7 +620,7 @@ const onClickRefresh = async () => {
   background: var(--card-color);
   cursor: pointer;
   position: relative;
-
+  overflow: hidden;
   :deep(.nut-avatar) {
     flex-shrink: 0;
     width: 56px;
